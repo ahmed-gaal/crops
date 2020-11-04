@@ -7,7 +7,7 @@ train_df = pd.read_csv(str(Config.dataset_path / 'train.csv'))
 test_df = pd.read_csv(str(Config.dataset_path / 'test.csv'))
 
 def extract_features(df):
-    return df[['Area harvested','Yield']]
+    return df[['Area harvested','Years']]
 
 train_features = extract_features(train_df)
 test_features = extract_features(test_df)
