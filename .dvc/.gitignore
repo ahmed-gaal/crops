@@ -1,4 +1,7 @@
 /config.local
 /tmp
 /cache
-/crops
+data/
+original_dataset/
+features/
+models/
